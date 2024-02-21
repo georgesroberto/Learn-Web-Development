@@ -46,9 +46,9 @@ Logical operators are used to determine the logic between variables or values. H
 let x = 6;
 let y = 3;
 
-console.log(x < 10 && y > 1); // and
-console.log(x == 5 || y == 5); // or
-console.log(!(x == y)); // not
+console.log(x < 10 && y > 1); // and -->TRUE
+console.log(x == 5 || y == 5); // or -->FALSE
+console.log(!(x == y)); // not --> TRUE
 ```
 
 ### Increment Operator (`++`)
