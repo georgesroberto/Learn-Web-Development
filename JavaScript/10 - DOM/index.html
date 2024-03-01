@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Title</title>
+  </head>
+  <body>
+    <h1 id="headerText">LEARNING JAVASCRIPT</h1>
+    <nav class="myNav">
+      <li>Home</li>
+      <li>About</li>
+    </nav>
+
+    <div>
+      <h2>Learning DOM</h2>
+      <p>JavaScript is fun and powerful</p>
+    </div>
+
+    <script>
+      //   document.body.innerHTML = "My body value";
+
+      // SELECTING ELEMENTS
+
+      let variableh1 = document.getElementById("headerText");
+      console.log(variableh1);
+
+      // selecting
+      let varibalenav = document.getElementsByClassName("myNav");
+      console.log(varibalenav);
+
+      // selecting
+
+      let varibaleli = document.getElementsByTagName("li");
+      console.log(varibaleli);
+    </script>
+  </body>
+</html>
