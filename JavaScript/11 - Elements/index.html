@@ -3,37 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document Object Model</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </nav>
-    </header>
+    <h1>DOM Example</h1>
+    <div id="container">
+      <p>This is a paragraph inside a div element with id="container".</p>
+      <p>
+        The div element has four child nodes: two text nodes and two p elements.
+      </p>
+      <p>You can use JavaScript to access and modify the DOM tree.</p>
+      <ul id="list">
+        <li>This is a list item inside an ul element with id="list".</li>
+        <li>
+          The ul element has five child nodes: a text node and four li elements.
+        </li>
+        <li>You can use JavaScript to add or remove list items dynamically.</li>
+        <li class="remove">Click the button below to add a new list item.</li>
+      </ul>
+    </div>
 
-    <main id="main">
-      <h1>Learn Object Manipulation</h1>
-
-      <div id="home">
-        <img
-          id="image1"
-          src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&height=900&width=1600&fit=bounds"
-          alt="image"
-        />
-        <h2>What is DOM ?</h2>
-        <p>DOM - Document Object model</p>
-      </div>
-
-    </main>
-
-    <footer>
-      <p>&nbsp;Copyright Janja Programmers</p>
-    </footer>
-
+    <div id="container">
+      <img src="" alt="Our first image" id="image" />
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
