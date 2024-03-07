@@ -39,16 +39,21 @@ p {
   background-color: #dddddd;
 }
 
-#button {
-  display: block;
+button {
+  display: inline-block;
   margin: auto;
-  padding: 10px;
+  padding: 2px;
   border: none;
-  background-color: #333333;
+  background-color: #b96f6f;
   color: #ffffff;
   cursor: pointer;
 }
 
 #button:hover {
   background-color: #444444;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
