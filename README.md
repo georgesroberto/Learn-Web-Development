@@ -4,11 +4,13 @@ Welcome to the Web Development Course repository! This repository serves as a co
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-- [Course Structure](#course-structure)
-- [Topics Covered](#topics-covered)
-- [Contributing](#contributing)
+- [Web Development Course](#web-development-course)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Getting Started](#getting-started)
+  - [The Course Structure](#the-course-structure)
+  - [Topics Covered](#topics-covered)
+  - [Contributing](#contributing)
 
 ## Overview
 
@@ -18,7 +20,7 @@ This course is designed to provide a solid foundation in web development, focusi
 
 To get started with the course, make sure you have a text editor installed (such as Visual Studio Code) and a web browser. Follow the instructions in the [Youtube Playlist](https://www.youtube.com/playlist?list=PLdVeTHIYtl-U0-b_IB8ddbePRW1kM33_K) guide to set up your development environment.
 
-## Course Structure
+## The Course Structure
 
 The course is divided into three main sections:
 

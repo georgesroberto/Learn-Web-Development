@@ -69,12 +69,10 @@ console.log(tutor2.name);
 
 let std1 = new Programmer("Philip", 12);
 let std2 = new Programmer("Brian", 12);
-let std3 = new Programmer("Clinton", 12);
+let std3 = new Programmer("Clinton", 12, 12.5);
 
 console.log(std3.weight);
 console.log(Programmer.obesity(10, 12));
 console.log(std3.yob());
-
-
 
 // INHERITANCE, OVERLOADING, OVERRIDING
