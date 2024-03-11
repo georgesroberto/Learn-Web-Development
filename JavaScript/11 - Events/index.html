@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>DOM Example</h1>
+    <div id="container">
+      <p>This is a paragraph inside a div element with id="container".</p>
+      <p>
+        The div element has four child nodes: two text nodes and two p elements.
+      </p>
+      <p>You can use JavaScript to access and modify the DOM tree.</p>
+      <ul id="list">
+        <li>This is a list item inside an ul element with id="list".</li>
+        <li>
+          The ul element has five child nodes: a text node and four li elements.
+        </li>
+        <li>You can use JavaScript to add or remove list items dynamically.</li>
+        <li class="remove">Click the button below to add a new list item.</li>
+      </ul>
+    </div>
+
+    <div id="container" class="parentDiv">
+      <img src="" alt="Our first image" id="image" />
+      <button id="replaceImage">
+        Replace image
+      </button>
+      <button id="previousImage">Previous Image</button>
+      <button id="nextImage" onclick="next()">Next Image</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
