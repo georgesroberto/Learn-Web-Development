@@ -19,6 +19,10 @@
 - **Example:**
 
   ```javascript
+  let greetUser = (user = "Guest") => {
+    return `Welcome, ${user}`;
+  };
+
   greetUser(); // Output: "Welcome, Guest!"
   greetUser("Georges"); // Output: "Welcome, Georges"
   ```
