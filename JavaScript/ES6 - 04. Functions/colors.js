@@ -9,4 +9,4 @@ function colors() {
   myButton.style.color = "white";
 }
 
-export default colors;
+colors();

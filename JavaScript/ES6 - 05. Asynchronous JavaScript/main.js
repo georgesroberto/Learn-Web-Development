@@ -41,18 +41,16 @@ const specificCustomPromiseData = new fetchData((resolve, reject) => {
     };
 
     if (data) {
-      resolve(`Name: ${data.age}`);
+      resolve(`Name: ${data.name}`);
     } else {
       reject(new Error(`Fail: ${data}`));
     }
   }, 1000);
 });
 
-specificCustomPromiseData.then((result) => {
-  console.log(`Success: ${result}`);
-});
-
-
+// specificCustomPromiseData.then((result) => {
+//   console.log(`Success: ${result}`);
+// });
 
 const specificPromiseData = new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -72,3 +70,14 @@ const specificPromiseData = new Promise((resolve, reject) => {
 specificPromiseData.then((result) => {
   console.log(`Success: ${result}`);
 });
+
+async function asyncFunction() {
+  try {
+    const result = await specificPromiseData;
+    console.log(`Fetched Data: ${result}`);
+  } catch (error) {
+    console.error("Failed to fetch data\nError: ", error);
+  }
+}
+
+asyncFunction();
